@@ -13,8 +13,11 @@ A SQL-based DBMS project to efficiently manage and analyze operations between pr
 | Schema Integrity  | Foreign Keys, ON DELETE rules, Constraints |
 | UI     | React.js                 |
 ---
+## 🧩 Database Relationship Schema
 
-### 📸 Sample Screenshots
+![Relationship Schema](Relationship_Schema.png)
+
+### 📸 UI Screenshots
 
 ## 1.Distributor Dashboard
 
