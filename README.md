@@ -3,4 +3,4 @@
 
 ### Distributor Dashboard
 
-![Distributor Dashboard](UI Images\Distributor_Dashboard.png)
+![Distributor Dashboard](UI_images/Distributor_Dashboard.png)
