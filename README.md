@@ -14,8 +14,9 @@ A SQL-based DBMS project to efficiently manage and analyze operations between pr
 | UI     | React.js                 |
 ---
 
+###📸 Sample Screenshots
 
-### Distributor Dashboard
+## Distributor Dashboard
 
 ![Distributor Dashboard](UI_images/Distributor_Dashboard.png)
 ## 🧾 Add Retailer 
