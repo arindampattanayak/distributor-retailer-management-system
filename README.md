@@ -14,24 +14,24 @@ A SQL-based DBMS project to efficiently manage and analyze operations between pr
 | UI     | React.js                 |
 ---
 
-###📸 Sample Screenshots
+### 📸 Sample Screenshots
 
-## Distributor Dashboard
+## 1.Distributor Dashboard
 
 ![Distributor Dashboard](UI_images/Distributor_Dashboard.png)
-## 🧾 Add Retailer 
+## 2.🧾 Add Retailer 
 
 ![Add Retailer](UI_images/AddRetailer.png)
-## 🛒 Record Purchase 
+## 3.🛒 Record Purchase 
 
 ![Record Purchase](UI_images/RecordPurchase.png)
-### 💵 Record Payment
+### 4.💵 Record Payment
 
 ![Record Payment](UI_images/RecordPayment.png)
-### 📜 Retailer Transaction History 
+### 5.📜 Retailer Transaction History 
 
 ![Retailer Transaction History](UI_images/ReatailerTransactionHistory.png)
-### 📋 Show All Retailers 
+### 6.📋 Show All Retailers 
 
 ![Show All Retailers](UI_images/ShowAllRetailers.png)
 
