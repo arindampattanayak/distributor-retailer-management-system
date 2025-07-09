@@ -1,51 +1,106 @@
 .transaction-history {
-  padding: 2rem;
-  font-family: Arial, sans-serif;
-  max-width: 900px;
+  padding: 2.5rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 1000px;
   margin: auto;
+  background: linear-gradient(135deg, #f0f4ff, #ffffff);
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
 }
 
+/* Input Styling */
 input {
-  margin-right: 10px;
-  padding: 0.5rem;
+  margin-right: 12px;
+  padding: 0.6rem 1rem;
   margin-bottom: 1rem;
+  border: 2px solid #cce5ff;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+  background-color: #f8fbff;
 }
 
+input:focus {
+  border-color: #3399ff;
+  outline: none;
+  background-color: #eaf4ff;
+}
+
+/* Button Styling */
 button {
-  margin: 0.5rem;
-  padding: 0.6rem 1rem;
-  background-color: #007bff;
+  margin: 0.5rem 0.5rem 1rem 0;
+  padding: 0.65rem 1.4rem;
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
   color: white;
   border: none;
-  border-radius: 6px;
+  border-radius: 8px;
   cursor: pointer;
+  font-weight: 600;
+  box-shadow: 0 4px 10px rgba(0, 123, 255, 0.3);
+  transition: background 0.3s ease, transform 0.2s ease;
 }
 
 button:hover {
-  background-color: #0056b3;
+  background: linear-gradient(135deg, #007bff, #00c6ff);
+  transform: translateY(-3px);
 }
 
+/* Retailer Card */
 .retailer-card {
-  border: 1px solid #ddd;
-  padding: 1rem;
-  margin-bottom: 1rem;
-  border-radius: 6px;
-  background-color: #f9f9f9;
+  border: 2px solid #dce3f1;
+  padding: 1.2rem;
+  margin-bottom: 1.5rem;
+  border-radius: 10px;
+  background: linear-gradient(145deg, #f9fafe, #ffffff);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
 }
 
+/* Transaction Table */
 .transaction-table {
   width: 100%;
   border-collapse: collapse;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
+  font-size: 1rem;
+  overflow-x: auto;
+  background-color: #ffffff;
+  border-radius: 10px;
 }
 
+/* Table Headers & Cells */
 .transaction-table th,
 .transaction-table td {
-  border: 1px solid #ddd;
-  padding: 0.75rem;
+  border: 1px solid #dee2e6;
+  padding: 0.9rem 1.2rem;
   text-align: left;
 }
 
 .transaction-table th {
-  background-color: #f1f1f1;
+  background: linear-gradient(to right, #c8e8ff, #e0f0ff);
+  color: #004085;
+  font-weight: bold;
+}
+
+.transaction-table tr:nth-child(even) {
+  background-color: #f3f9ff;
+}
+
+.transaction-table tr:hover {
+  background-color: #e6f2ff;
+  transition: background-color 0.2s ease;
+}
+
+/* Responsive Enhancements */
+@media (max-width: 768px) {
+  .transaction-history {
+    padding: 2rem 1rem;
+  }
+
+  input {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .transaction-table {
+    font-size: 0.9rem;
+  }
 }

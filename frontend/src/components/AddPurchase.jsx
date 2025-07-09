@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./AddPurchase.css";
 import axios from "axios";
-//tt
+
 const AddPurchase = () => {
   const [purchase, setPurchase] = useState({
     retailerName: "",

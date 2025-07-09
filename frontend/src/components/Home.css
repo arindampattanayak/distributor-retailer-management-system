@@ -1,50 +1,69 @@
 .home-container {
   text-align: center;
-  padding: 2rem;
-  font-family: Arial, sans-serif;
-  background-color: #f0f2f5;
+  padding: 3rem 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #eef2f7, #f9fafc);
   min-height: 100vh;
 }
 
+/* Heading */
 h1 {
-  margin-bottom: 2rem;
-  color: #333;
+  margin-bottom: 2.5rem;
+  color: #2c3e50;
+  font-size: 2.5rem;
+  font-weight: bold;
 }
 
+/* Card Layout Container */
 .card-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 1.5rem;
+  gap: 2rem;
 }
 
+/* Individual Card */
 .card {
-  width: 200px;
-  height: 150px;
-  background-color: white;
-  border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 220px;
+  height: 160px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e0e0e0;
   cursor: pointer;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  transition: transform 0.2s, box-shadow 0.2s;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
 .card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
 
+/* Card Icon */
 .icon {
-  font-size: 2.5rem;
-  margin-bottom: 10px;
-  color: #007bff;
+  font-size: 3rem;
+  margin-bottom: 12px;
+  color: #1d72b8;
 }
 
+/* Card Text */
 .card span {
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 600;
-  color: #333;
+  color: #444;
+}
+
+/* Optional: Hover Pulse Animation */
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.02); }
+  100% { transform: scale(1); }
+}
+
+.card:hover {
+  animation: pulse 0.4s ease;
 }

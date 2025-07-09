@@ -2,7 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import { FaUserPlus, FaShoppingCart, FaMoneyBill, FaHistory, FaList } from "react-icons/fa";
 import "./Home.css";
-// done
+
 const Home = () => {
   const navigate = useNavigate();
 

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { FaEye } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
-
+import "./AllRetailers.css";
 const AllRetailers = () => {
   const [allRetailers, setAllRetailers] = useState([]);
   const navigate = useNavigate();
